@@ -1,0 +1,957 @@
+<launch>
+	    <arg name="map_size_x" value="50.0"/>
+	    <arg name="map_size_y" value="50.0"/>
+    	<arg name="map_size_z" value=" 3.0"/>
+    	<arg name="odom_topic" value="visual_slam/odom" />
+
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="0"/>
+			<arg name="init_x"     value="4.82626734083"/>
+			<arg name="init_y"     value="15.8118741641"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-14.3529693951"/>
+			<arg name="waypoint0_y"   value="-2.52388915807"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-21.0032051789"/>
+			<arg name="waypoint1_y"   value="-18.1374808232"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="-6.70680160742"/>
+			<arg name="target_y"   value="4.91724650001"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="1"/>
+			<arg name="init_x"     value="8.72321361024"/>
+			<arg name="init_y"     value="11.9940530294"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-20.7355256402"/>
+			<arg name="waypoint0_y"   value="17.3684327124"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="15.2624440761"/>
+			<arg name="waypoint1_y"   value="-8.04715491014"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="20.6395328407"/>
+			<arg name="target_y"   value="-20.9653563493"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="2"/>
+			<arg name="init_x"     value="10.972227389"/>
+			<arg name="init_y"     value="19.9005889453"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="23.4820596176"/>
+			<arg name="waypoint0_y"   value="22.6977834532"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="7.18253576616"/>
+			<arg name="waypoint1_y"   value="3.93250142189"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="-15.605349346"/>
+			<arg name="target_y"   value="6.47527623381"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="3"/>
+			<arg name="init_x"     value="3.68759874647"/>
+			<arg name="init_y"     value="17.7233290145"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="19.5150887885"/>
+			<arg name="waypoint0_y"   value="-13.1536553547"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="20.7477731504"/>
+			<arg name="waypoint1_y"   value="12.3816672098"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="11.0342895724"/>
+			<arg name="target_y"   value="21.090846743"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="4"/>
+			<arg name="init_x"     value="22.8259412184"/>
+			<arg name="init_y"     value="21.8873845954"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="17.5708178015"/>
+			<arg name="waypoint0_y"   value="5.21520084268"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="18.6530804761"/>
+			<arg name="waypoint1_y"   value="-8.33420344052"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="-23.8257890114"/>
+			<arg name="target_y"   value="-9.94747299066"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="5"/>
+			<arg name="init_x"     value="-18.7682775357"/>
+			<arg name="init_y"     value="-12.4685951633"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="6.13577245906"/>
+			<arg name="waypoint0_y"   value="-3.8302061994"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-14.9979799955"/>
+			<arg name="waypoint1_y"   value="19.5106431138"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="-1.32549747199"/>
+			<arg name="target_y"   value="-11.6503787922"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="6"/>
+			<arg name="init_x"     value="5.13473349715"/>
+			<arg name="init_y"     value="-0.599417407637"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-1.46244991473"/>
+			<arg name="waypoint0_y"   value="1.95646560309"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-22.5739696852"/>
+			<arg name="waypoint1_y"   value="13.1371636359"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="23.4099501022"/>
+			<arg name="target_y"   value="-1.25207258327"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="7"/>
+			<arg name="init_x"     value="21.6835205782"/>
+			<arg name="init_y"     value="-9.62963311504"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="6.96762937721"/>
+			<arg name="waypoint0_y"   value="-18.9637573483"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="9.05455982036"/>
+			<arg name="waypoint1_y"   value="21.4159538702"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="8.01573008676"/>
+			<arg name="target_y"   value="4.77909182689"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="8"/>
+			<arg name="init_x"     value="4.16078319806"/>
+			<arg name="init_y"     value="3.49586302802"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="15.9348950352"/>
+			<arg name="waypoint0_y"   value="5.13486741377"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="11.3524814142"/>
+			<arg name="waypoint1_y"   value="13.1247251978"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="12.7087273336"/>
+			<arg name="target_y"   value="-8.48379393245"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="9"/>
+			<arg name="init_x"     value="-9.00910655871"/>
+			<arg name="init_y"     value="-2.79454801761"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="9.57538546013"/>
+			<arg name="waypoint0_y"   value="1.8508884444"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-2.46294661933"/>
+			<arg name="waypoint1_y"   value="6.47829452242"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="-21.4132484311"/>
+			<arg name="target_y"   value="-23.0275686915"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="10"/>
+			<arg name="init_x"     value="11.7479988683"/>
+			<arg name="init_y"     value="14.2398058833"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-1.24426139477"/>
+			<arg name="waypoint0_y"   value="17.5824944512"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="15.0785479233"/>
+			<arg name="waypoint1_y"   value="-5.78401564809"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="16.2894710413"/>
+			<arg name="target_y"   value="4.88701288319"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="11"/>
+			<arg name="init_x"     value="2.35279450756"/>
+			<arg name="init_y"     value="-22.2142460585"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="18.3234104586"/>
+			<arg name="waypoint0_y"   value="4.63824963926"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="4.21678568306"/>
+			<arg name="waypoint1_y"   value="-7.39677029393"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="-18.6959510086"/>
+			<arg name="target_y"   value="11.630689211"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="12"/>
+			<arg name="init_x"     value="-18.8800950187"/>
+			<arg name="init_y"     value="-22.725239334"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="15.6359101503"/>
+			<arg name="waypoint0_y"   value="-15.0599971689"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-22.5081359817"/>
+			<arg name="waypoint1_y"   value="17.0733136602"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="13.6345868254"/>
+			<arg name="target_y"   value="21.7887833663"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="13"/>
+			<arg name="init_x"     value="-1.41521610078"/>
+			<arg name="init_y"     value="14.6145407745"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-17.4178867924"/>
+			<arg name="waypoint0_y"   value="-16.872748639"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-17.1986828513"/>
+			<arg name="waypoint1_y"   value="-10.8227539701"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="5.68906020767"/>
+			<arg name="target_y"   value="-24.3343313843"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="14"/>
+			<arg name="init_x"     value="-21.5642338302"/>
+			<arg name="init_y"     value="14.772201247"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-9.76965237204"/>
+			<arg name="waypoint0_y"   value="0.222017599039"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-0.988596426814"/>
+			<arg name="waypoint1_y"   value="-1.97550127883"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="-3.48671345583"/>
+			<arg name="target_y"   value="17.1292330614"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="15"/>
+			<arg name="init_x"     value="-1.47318977071"/>
+			<arg name="init_y"     value="-3.66476142136"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="20.5961410873"/>
+			<arg name="waypoint0_y"   value="5.85093792633"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="21.4513984337"/>
+			<arg name="waypoint1_y"   value="4.00389126708"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="14.287444726"/>
+			<arg name="target_y"   value="13.2590572557"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="16"/>
+			<arg name="init_x"     value="-3.55782848029"/>
+			<arg name="init_y"     value="15.4798696992"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="9.40967919537"/>
+			<arg name="waypoint0_y"   value="-4.33343555853"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-22.0933265821"/>
+			<arg name="waypoint1_y"   value="17.4884512977"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="-8.32644074403"/>
+			<arg name="target_y"   value="-9.40823867757"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="17"/>
+			<arg name="init_x"     value="-11.0074912006"/>
+			<arg name="init_y"     value="-16.9415168945"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="9.79002772874"/>
+			<arg name="waypoint0_y"   value="-21.767124157"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="16.3111739591"/>
+			<arg name="waypoint1_y"   value="-20.6689507635"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="15.129994295"/>
+			<arg name="target_y"   value="-23.628973656"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="18"/>
+			<arg name="init_x"     value="-2.35460559305"/>
+			<arg name="init_y"     value="23.1808646689"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-18.7311450439"/>
+			<arg name="waypoint0_y"   value="7.5295696794"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-20.4581841028"/>
+			<arg name="waypoint1_y"   value="-7.16839028955"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="0.499879606487"/>
+			<arg name="target_y"   value="-23.0570114581"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="19"/>
+			<arg name="init_x"     value="-22.0469788141"/>
+			<arg name="init_y"     value="-12.9482912055"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-5.27599163917"/>
+			<arg name="waypoint0_y"   value="7.92574548002"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-19.2682720618"/>
+			<arg name="waypoint1_y"   value="-23.1716832361"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="3.36798853788"/>
+			<arg name="target_y"   value="-23.9976033849"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="20"/>
+			<arg name="init_x"     value="-4.07887580965"/>
+			<arg name="init_y"     value="-20.7702425172"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-1.84428300243"/>
+			<arg name="waypoint0_y"   value="-16.9379391293"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="10.8306867727"/>
+			<arg name="waypoint1_y"   value="6.89366317315"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="19.4293514728"/>
+			<arg name="target_y"   value="-4.28589477684"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="21"/>
+			<arg name="init_x"     value="-16.1982842993"/>
+			<arg name="init_y"     value="16.0886030253"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="15.9338105284"/>
+			<arg name="waypoint0_y"   value="19.7463603192"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="7.53070064867"/>
+			<arg name="waypoint1_y"   value="-22.0056134371"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="12.2429147049"/>
+			<arg name="target_y"   value="11.0143522349"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="22"/>
+			<arg name="init_x"     value="-2.02761914463"/>
+			<arg name="init_y"     value="-15.5288736867"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="3.34235813199"/>
+			<arg name="waypoint0_y"   value="22.0778902051"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="4.84412865475"/>
+			<arg name="waypoint1_y"   value="0.798880161152"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="7.068415357"/>
+			<arg name="target_y"   value="-3.29325822817"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="23"/>
+			<arg name="init_x"     value="-22.0550236153"/>
+			<arg name="init_y"     value="0.492076413953"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="13.6833124625"/>
+			<arg name="waypoint0_y"   value="11.4134202489"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-12.3290437521"/>
+			<arg name="waypoint1_y"   value="11.2403367917"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="19.0852611901"/>
+			<arg name="target_y"   value="4.60749413788"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="24"/>
+			<arg name="init_x"     value="-6.3632922377"/>
+			<arg name="init_y"     value="-14.8605320011"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="23.9782723486"/>
+			<arg name="waypoint0_y"   value="15.2128919812"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-13.7195003349"/>
+			<arg name="waypoint1_y"   value="18.8110847921"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="-6.67103037745"/>
+			<arg name="target_y"   value="11.6605457006"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="25"/>
+			<arg name="init_x"     value="7.62113417502"/>
+			<arg name="init_y"     value="-7.01178690832"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-17.5302536774"/>
+			<arg name="waypoint0_y"   value="1.8399567124"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-16.1225066201"/>
+			<arg name="waypoint1_y"   value="-20.5486039538"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="16.2217169798"/>
+			<arg name="target_y"   value="-22.517224665"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="26"/>
+			<arg name="init_x"     value="-21.70208756"/>
+			<arg name="init_y"     value="-8.70417163411"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="0.649156623652"/>
+			<arg name="waypoint0_y"   value="-15.6922729083"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-1.16380309896"/>
+			<arg name="waypoint1_y"   value="-17.7767069883"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="-15.9360522072"/>
+			<arg name="target_y"   value="-16.465588372"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="27"/>
+			<arg name="init_x"     value="0.460110524133"/>
+			<arg name="init_y"     value="-20.4759579719"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-12.186349921"/>
+			<arg name="waypoint0_y"   value="18.5480580909"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="19.6901255327"/>
+			<arg name="waypoint1_y"   value="18.6747889333"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="-6.37737067779"/>
+			<arg name="target_y"   value="12.2523301858"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="28"/>
+			<arg name="init_x"     value="-19.8952630004"/>
+			<arg name="init_y"     value="20.2450430789"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-8.34345253073"/>
+			<arg name="waypoint0_y"   value="15.9038397492"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-4.97197072534"/>
+			<arg name="waypoint1_y"   value="-8.08320093774"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="6.81700948938"/>
+			<arg name="target_y"   value="7.00815512516"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="29"/>
+			<arg name="init_x"     value="-6.24470686576"/>
+			<arg name="init_y"     value="16.1697246539"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="10.2036789844"/>
+			<arg name="waypoint0_y"   value="12.863888928"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-4.23117123721"/>
+			<arg name="waypoint1_y"   value="11.0826957139"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="16.8054617558"/>
+			<arg name="target_y"   value="6.46244339612"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="30"/>
+			<arg name="init_x"     value="24.3606526614"/>
+			<arg name="init_y"     value="9.04997228179"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-14.2988691901"/>
+			<arg name="waypoint0_y"   value="-15.6083502041"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="3.13680485984"/>
+			<arg name="waypoint1_y"   value="0.25831111126"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="14.6576717764"/>
+			<arg name="target_y"   value="-15.1304123445"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="31"/>
+			<arg name="init_x"     value="19.5586353962"/>
+			<arg name="init_y"     value="-18.9933632933"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-3.19269807464"/>
+			<arg name="waypoint0_y"   value="16.6132264347"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="11.752061136"/>
+			<arg name="waypoint1_y"   value="-21.3708425163"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="-20.8807049242"/>
+			<arg name="target_y"   value="-2.62225523835"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="32"/>
+			<arg name="init_x"     value="18.5398463003"/>
+			<arg name="init_y"     value="-14.4722922304"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-9.0953755268"/>
+			<arg name="waypoint0_y"   value="-8.54915396609"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-2.79809972124"/>
+			<arg name="waypoint1_y"   value="-16.4359398157"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="11.2177358276"/>
+			<arg name="target_y"   value="-4.36996737366"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="33"/>
+			<arg name="init_x"     value="-9.34607581968"/>
+			<arg name="init_y"     value="10.9075717904"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-6.77731382726"/>
+			<arg name="waypoint0_y"   value="14.6421883643"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="19.8620146263"/>
+			<arg name="waypoint1_y"   value="6.13784420046"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="-22.7015076168"/>
+			<arg name="target_y"   value="-16.0223715532"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="34"/>
+			<arg name="init_x"     value="1.41085602779"/>
+			<arg name="init_y"     value="-24.132937605"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-12.3307632076"/>
+			<arg name="waypoint0_y"   value="-21.5550661832"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-0.716517763364"/>
+			<arg name="waypoint1_y"   value="-2.61703670241"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="9.79843895633"/>
+			<arg name="target_y"   value="-16.9267605696"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="35"/>
+			<arg name="init_x"     value="18.5500722243"/>
+			<arg name="init_y"     value="-9.33705493168"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="9.09831265478"/>
+			<arg name="waypoint0_y"   value="-17.9616345635"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="20.2395898485"/>
+			<arg name="waypoint1_y"   value="22.1372704933"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="18.0880592278"/>
+			<arg name="target_y"   value="-3.34978946319"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="36"/>
+			<arg name="init_x"     value="-15.996868366"/>
+			<arg name="init_y"     value="14.8612265903"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-21.387117535"/>
+			<arg name="waypoint0_y"   value="6.69926863358"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-18.5043128955"/>
+			<arg name="waypoint1_y"   value="-17.3916227063"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="8.14724934666"/>
+			<arg name="target_y"   value="1.41751732337"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="37"/>
+			<arg name="init_x"     value="-17.066248173"/>
+			<arg name="init_y"     value="5.37415949846"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="22.4196132929"/>
+			<arg name="waypoint0_y"   value="-17.2979307562"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-4.64133346518"/>
+			<arg name="waypoint1_y"   value="-2.69729382399"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="7.18395023333"/>
+			<arg name="target_y"   value="-19.070132365"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="38"/>
+			<arg name="init_x"     value="-10.4694550766"/>
+			<arg name="init_y"     value="-23.8654640605"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="15.8221664561"/>
+			<arg name="waypoint0_y"   value="-7.158467008"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="12.2049774374"/>
+			<arg name="waypoint1_y"   value="-15.1984626238"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="-21.9661300478"/>
+			<arg name="target_y"   value="17.8834766657"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="39"/>
+			<arg name="init_x"     value="-4.54215793951"/>
+			<arg name="init_y"     value="4.20435762519"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-6.12781846727"/>
+			<arg name="waypoint0_y"   value="-10.0062584415"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-20.9876831793"/>
+			<arg name="waypoint1_y"   value="-15.8761157254"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="-21.1784457635"/>
+			<arg name="target_y"   value="0.221360920033"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="40"/>
+			<arg name="init_x"     value="21.1162093805"/>
+			<arg name="init_y"     value="2.26636457651"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="2.27581617069"/>
+			<arg name="waypoint0_y"   value="19.3798061764"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-21.3274885882"/>
+			<arg name="waypoint1_y"   value="-8.82094350977"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="-21.5255482795"/>
+			<arg name="target_y"   value="-16.4315052701"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="41"/>
+			<arg name="init_x"     value="23.3044570709"/>
+			<arg name="init_y"     value="9.90983295672"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="21.4710152093"/>
+			<arg name="waypoint0_y"   value="-24.0666215084"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="1.22847683479"/>
+			<arg name="waypoint1_y"   value="-14.9441188523"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="-22.8471016863"/>
+			<arg name="target_y"   value="-19.0592699629"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="42"/>
+			<arg name="init_x"     value="-17.4101423139"/>
+			<arg name="init_y"     value="-0.493075770815"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="12.7573087528"/>
+			<arg name="waypoint0_y"   value="-8.84988092674"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-8.51047618537"/>
+			<arg name="waypoint1_y"   value="-11.8927801546"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="5.82408297758"/>
+			<arg name="target_y"   value="10.4549353386"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="43"/>
+			<arg name="init_x"     value="9.70743019249"/>
+			<arg name="init_y"     value="-22.015130132"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-12.4901620621"/>
+			<arg name="waypoint0_y"   value="4.34759725183"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-21.2815243088"/>
+			<arg name="waypoint1_y"   value="-19.6696808998"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="1.34672401177"/>
+			<arg name="target_y"   value="-0.714819951731"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="44"/>
+			<arg name="init_x"     value="-23.9040736971"/>
+			<arg name="init_y"     value="-12.9882649018"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-9.19620058571"/>
+			<arg name="waypoint0_y"   value="-18.1391988937"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="2.17543050379"/>
+			<arg name="waypoint1_y"   value="-7.6151114638"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="-22.3837219349"/>
+			<arg name="target_y"   value="-4.23112944603"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="45"/>
+			<arg name="init_x"     value="17.3320631059"/>
+			<arg name="init_y"     value="22.5420045387"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="9.21458912665"/>
+			<arg name="waypoint0_y"   value="16.4063663687"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="3.51079663567"/>
+			<arg name="waypoint1_y"   value="-24.1379417463"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="7.85533208203"/>
+			<arg name="target_y"   value="5.32646555335"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="46"/>
+			<arg name="init_x"     value="0.454715014004"/>
+			<arg name="init_y"     value="-8.20287521488"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-17.9441544614"/>
+			<arg name="waypoint0_y"   value="16.3467222922"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-24.3123111383"/>
+			<arg name="waypoint1_y"   value="-4.5549304132"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="18.0049162674"/>
+			<arg name="target_y"   value="20.9050906931"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="47"/>
+			<arg name="init_x"     value="22.9289446491"/>
+			<arg name="init_y"     value="-16.7465633164"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-2.06479613705"/>
+			<arg name="waypoint0_y"   value="-17.8629592126"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="-6.27141995054"/>
+			<arg name="waypoint1_y"   value="-22.7498316602"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="-7.96949800317"/>
+			<arg name="target_y"   value="-10.5833605806"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="48"/>
+			<arg name="init_x"     value="16.5008218941"/>
+			<arg name="init_y"     value="9.50115891634"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="16.3156150298"/>
+			<arg name="waypoint0_y"   value="-10.3180318188"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="16.6894423243"/>
+			<arg name="waypoint1_y"   value="7.73701407436"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="22.6661318809"/>
+			<arg name="target_y"   value="-5.58728079057"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+    <include file="$(find edg_team)/launch/run_in_sim_large_scale.launch">
+			<arg name="drone_id"   value="49"/>
+			<arg name="init_x"     value="-18.3405337669"/>
+			<arg name="init_y"     value="-17.7516142945"/>
+			<arg name="init_z"     value="1.5"/>
+			<arg name="waypoint0_x"   value="-11.1221398197"/>
+			<arg name="waypoint0_y"   value="-13.8460411904"/>
+			<arg name="waypoint0_z"   value="1.5"/>
+			<arg name="waypoint1_x"   value="11.978577133"/>
+			<arg name="waypoint1_y"   value="-1.44914644332"/>
+			<arg name="waypoint1_z"   value="1.5"/>
+			<arg name="target_x"   value="-12.9400849559"/>
+			<arg name="target_y"   value="-7.93455642565"/>
+			<arg name="target_z"   value="1.5"/>
+			<arg name="map_size_x" value="$(arg map_size_x)"/>
+			<arg name="map_size_y" value="$(arg map_size_y)"/>
+			<arg name="map_size_z" value="$(arg map_size_z)"/>
+			<arg name="odom_topic" value="$(arg odom_topic)"/>
+		</include>
+</launch>

@@ -1,0 +1,19 @@
+<launch>
+
+  <node pkg="swarm_bridge" name="desktop_bridge_node" type="bridge_node" output="screen">
+
+    <param name="broadcast_ip" value="192.168.100.255" type="string"/>
+    <param name="drone_id" value="999" />
+    <param name="odom_max_freq" value="0" />
+
+  </node>
+
+  <node pkg="swarm_bridge" name="traj2odom_node" type="traj2odom_node" output="screen">
+
+    <param name="odom_hz" value="50" />
+
+  </node>
+
+  <node pkg="swarm_bridge" name="send_stop" type="send_stop.py" output="screen"/>
+
+</launch>

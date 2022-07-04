@@ -1,0 +1,4 @@
+.catkin_workspace
+build/
+devel/
+pictures/*.mp4
