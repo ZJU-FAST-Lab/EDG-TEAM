@@ -25,7 +25,7 @@ sudo apt-get install libarmadillo-dev
 
 **Step 2**. Clone the code from github.
 ```
-git clone 
+git clone https://github.com/ZJU-FAST-Lab/EDG-TEAM.git
 ```
 
 **Step 3**. Compile,
